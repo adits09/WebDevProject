@@ -1,0 +1,136 @@
+.footer-container {
+  background-color: #9b2b2b;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Left section - Message */
+.footer-message {
+  flex: 1;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-message h2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0; /* No margins */
+  padding-left: 0; /* No padding */
+  color: white;
+  text-align: left;
+}
+
+/* Right section - Info */
+.footer-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  letter-spacing: 1px;
+}
+
+.footer-copyright, .footer-rights {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #f0f0f0; /* Off-white color */
+}
+
+/* Social icons */
+.footer-social {
+  display: flex;
+  margin: 15px 0;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  margin-right: 15px;
+}
+
+/* Updates section */
+.footer-updates {
+  margin-top: 15px;
+}
+
+.footer-updates p {
+  margin: 0 0 10px 0;
+  color: #f0f0f0; /* Off-white color */
+}
+
+.email-input-container {
+  width: 100%;
+  border: 1px solid white;
+  padding: 8px 12px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-email-input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1rem;
+  outline: none;
+  flex-grow: 1;
+}
+
+.footer-email-input::placeholder {
+  color: white;
+  opacity: 0.8;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1rem;
+}
+
+.email-submit-button {
+  background-color: white;
+  color: #9b2b2b;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.email-submit-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-message {
+    margin-bottom: 30px;
+  }
+  
+  .social-icon {
+    width: 25px;
+    height: 25px;
+  }
+}

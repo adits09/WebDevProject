@@ -1,0 +1,83 @@
+/* General reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.aboutus-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Main content styles - adjusted for no header */
+.main-content {
+  display: flex;
+  height: 100vh; /* Removed header height calculation */
+}
+
+.left-section {
+  flex: 1;
+  background-color: #9e2222;
+  padding: 80px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-frame {
+  border: 3px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  max-width: 350px;
+  aspect-ratio: 1;
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #d8d0cc;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.story-title {
+  color: #651e1e;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.story-text {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+
+.shop-button {
+  background-color: #a52121;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-button:hover {
+  background-color: #851a1a;
+}

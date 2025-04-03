@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+
+/* EVERYTHING BELOW HERE IS EXACTLY THE SAME AS BEFORE */
+.contact-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-panel {
+  flex: 0.4;
+  background-color: #9e2a2b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex: 1;
+}
+
+.section-divider {
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.section-divider .divider-line {
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.script-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  color: #f8f1e9;
+}
+
+.left-intro {
+  font-family: 'Dancing Script', cursive;
+  color: #f8f1e9;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 80%;
+  line-height: 1.5;
+}
+
+.join-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 0.5rem 0;
+  color: #f8f1e9;
+}
+
+.dream-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  color: #f8f1e9;
+}
+
+.right-panel {
+  flex: 0.6;
+  background-color: #f8f1e9;
+  overflow-y: auto;
+}
+
+.right-sections {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-section, .join-section {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.section-visual-divider {
+  height: 4px;
+  background-color: rgba(158, 42, 43, 0.1);
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-visual-divider .divider-line {
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  background-color: rgba(158, 42, 43, 0.7);
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* ONLY CONTACT SECTION STYLES CHANGED */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-email {
+  font-size: 1.1rem;
+  color: #9e2a2b;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-address p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+  letter-spacing: 0.02em;
+}
+
+.contact-address p:first-child {
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.contact-map {
+  font-size: 0.85rem;
+  color: #9e2a2b;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  margin-top: 0.5rem;
+}
+
+/* EVERYTHING BELOW HERE IS EXACTLY THE SAME AS BEFORE */
+.form-container {
+  border: 2px solid #9e2a2b;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 1rem;
+}
+
+.form-columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.form-left, .form-right {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid #9e2a2b;
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-bottom: 2px solid #9e2a2b;
+}
+
+.submit-button {
+  background-color: #9e2a2b;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button:hover {
+  background-color: #7a1f20;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .left-panel {
+    flex: none;
+  }
+  
+  .left-content {
+    flex-direction: column;
+  }
+  
+  .section-header {
+    padding: 1rem;
+  }
+  
+  .script-heading, .join-text {
+    font-size: 2.2rem;
+  }
+  
+  .left-intro {
+    max-width: 90%;
+    font-size: 0.8rem;
+  }
+  
+  .dream-text {
+    font-size: 1.2rem;
+  }
+  
+  .right-content {
+    max-width: 90%;
+  }
+  
+  .contact-section, .join-section {
+    height: auto;
+    min-height: 50vh;
+    padding: 1.5rem;
+  }
+  
+  .form-container {
+    border: 2px solid #9e2a2b;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+  }
+  
+  .form-columns {
+    flex-direction: column;
+    gap: 0;
+  }
+}
