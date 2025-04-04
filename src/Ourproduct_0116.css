@@ -1,4 +1,4 @@
-/* Main Background and Base Styles */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -9,9 +9,9 @@ html, body {
 .gradient-background {
   min-height: 100vh;
   width: 100%;
-  background: #ff3d3d; /* Fallback solid color */
+  background: #ff3d3d; 
   background: linear-gradient(90deg, #7b0101 0%, #c21e1e 50%, #ff3d3d 100%);
-  padding: 1px 0; /* Prevents margin collapse */
+  padding: 1px 0; 
 }
 
 .product-sourcing-container {
@@ -23,7 +23,6 @@ html, body {
   gap: 40px;
 }
 
-/* Section Layout */
 .section {
   width: 100%;
   display: flex;
@@ -37,7 +36,6 @@ html, body {
   justify-content: flex-end;
 }
 
-/* Content Wrappers with Curved Ends */
 .content-wrapper {
   position: relative;
   width: 50%;
@@ -61,7 +59,6 @@ html, body {
   justify-content: flex-end;
 }
 
-/* Text Content Styling */
 .text-content {
   width: 55%;
   padding: 30px;
@@ -80,7 +77,6 @@ html, body {
   padding-right: 0;
 }
 
-/* Image Styling */
 .image-wrapper {
   position: absolute;
   width: 220px;
@@ -106,7 +102,6 @@ html, body {
   object-fit: cover;
 }
 
-/* Typography */
 h2 {
   font-size: 1.6rem;
   margin-bottom: 15px;
@@ -122,7 +117,7 @@ p {
   margin: 0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .product-sourcing-container {
     padding: 30px 15px;

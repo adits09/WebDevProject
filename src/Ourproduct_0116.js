@@ -1,6 +1,6 @@
 import React from 'react';
 import './Ourproduct_0116.css';
-import tiramisu from './tiramisu.jpg'; // Make sure to import the images
+import tiramisu from './tiramisu.jpg'; 
 import craftedwithcare from './craftedwithcare.jpg';
 const Ourproduct_0116 = () => {
   return (

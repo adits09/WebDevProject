@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
 
-/* EVERYTHING BELOW HERE IS EXACTLY THE SAME AS BEFORE */
 .contact-container {
   display: flex;
   height: 100vh;
@@ -132,7 +131,6 @@
   margin: 0 auto;
 }
 
-/* ONLY CONTACT SECTION STYLES CHANGED */
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -177,7 +175,6 @@
   margin-top: 0.5rem;
 }
 
-/* EVERYTHING BELOW HERE IS EXACTLY THE SAME AS BEFORE */
 .form-container {
   border: 2px solid #9e2a2b;
   border-radius: 15px;

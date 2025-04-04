@@ -115,7 +115,6 @@
   text-decoration: underline;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 480px) {
   .login-form-container {
     padding: 30px 20px;

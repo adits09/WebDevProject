@@ -1,4 +1,4 @@
-/* General reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +11,10 @@
   height: 100vh;
 }
 
-/* Main content styles - adjusted for no header */
+
 .main-content {
   display: flex;
-  height: 100vh; /* Removed header height calculation */
+  height: 100vh; 
 }
 
 .left-section {

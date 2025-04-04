@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import Header from './Header';
 import AboutusPage from './Aboutus_page';

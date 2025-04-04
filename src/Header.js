@@ -6,7 +6,7 @@ function Header() {
   const navigate = useNavigate();
 
   const handleSignInClick = () => {
-    navigate('/signup'); // This should match the route path for your SignupPage
+    navigate('/signup'); 
   };
   const ShopNow=()=>{
     navigate('/shop');

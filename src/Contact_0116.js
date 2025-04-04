@@ -1,12 +1,14 @@
 import React from 'react';
 import './Contact_0116.css';
+import { useNavigate } from 'react-router-dom';
 import Header from '../src/Header';
+import Aboutus_page from '../src/Aboutus_page'
 function Contact_0116() {
+  
   return (
     <div>
     <Header />
     <div className="contact-container">
-      {/* Left Panel - EXACTLY AS BEFORE */}
       <div className="left-panel">
         <div className="left-content">
           <div className="section-header">
@@ -28,10 +30,9 @@ function Contact_0116() {
         </div>
       </div>
       
-      {/* Right Panel - ONLY CONTACT SECTION CHANGED */}
       <div className="right-panel">
         <div className="right-sections">
-          {/* Modified Contact Section */}
+          
           <div className="contact-section">
             <div className="right-content">
               <div className="contact-info">
@@ -50,12 +51,10 @@ function Contact_0116() {
             </div>
           </div>
           
-          {/* EXACTLY AS BEFORE */}
           <div className="section-visual-divider">
             <div className="divider-line"></div>
           </div>
           
-          {/* Form Section - EXACTLY AS BEFORE */}
           <div className="join-section">
             <div className="right-content">
               <form className="contact-form">
@@ -96,6 +95,7 @@ function Contact_0116() {
       </div>
     </div>
     </div>
+    
   );
 }
 
