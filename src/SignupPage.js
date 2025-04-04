@@ -50,10 +50,8 @@ const SignupPage = () => {
     }
 
     if (Object.keys(errors).length === 0) {
-      // Form is valid, proceed with submission
       navigate('/');
     } else {
-      // Form has errors, display them
       setFormErrors(errors);
     }
   };
