@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-message">
           <h2>We'd love to hear from you!</h2>
+          <p className="footer-creator">Created by Aditi Mishra 23BDS0116</p>
         </div>
         
         <div className="footer-info">
